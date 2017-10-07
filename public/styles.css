@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+}
+
+.click-btn {
+  width: 150px;
+  height: 100px;
+  color: #000;
+  font-size: 25px;
+  background: cyan;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #d8d8d8;
+  outline: none;
+}
+
+.sunsets-btn {
+  width: 150px;
+  height: 100px;
+  color: #fff;
+  font-size: 25px;
+  background: tomato;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #d8d8d8;
+  outline: none;
+}
+
+.new-text {
+  font-size: 25px;
+  color: magenta;
+}

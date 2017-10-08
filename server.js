@@ -39,3 +39,7 @@ app.get('/sunsets', (request, response) => {
 app.listen(3000, () => {
   console.log('Express intro running on localhost:3000');
 });
+
+app.use( (request, response) => {
+  response.status(404).send('We are sorry. The page you requested could not be found.')
+});
